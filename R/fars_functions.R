@@ -54,7 +54,7 @@ make_filename <- function(year) {
 #' @return A list with the data from input years, and an extra column with year
 #' @export
 #' @importFrom dplyr mutate select
-#' @importFrom magritr "%>%"
+#' @importFrom magrittr "%>%"
 #' @examples
 #' fars_read_years(c('1990', '1991', '2010'))
 #'
@@ -81,7 +81,7 @@ fars_read_years <- function(years) {
 #'
 #' @importFrom dplyr bind_rows group_by summarize
 #' @importFrom tidyr spread
-#' @importFrom magritr "%>%"
+#' @importFrom magrittr "%>%"
 #'
 #' @examples
 #' fars_summarize_years(c('1990', '1991', '2010'))

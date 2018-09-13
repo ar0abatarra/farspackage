@@ -14,9 +14,3 @@ fars_map_state(state.num, year)
 \description{
 Maps the data belonging to input state in input year.
 }
-\examples{
-
-fars_map_state('0001', '1999
-')
-
-}
