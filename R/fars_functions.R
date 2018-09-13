@@ -7,7 +7,7 @@
 #' @return data in tibble format.
 #' @export
 #'
-#' @importFrom readr readcsv
+#' @importFrom readr read_csv
 #'
 #' @examples
 #'
@@ -107,6 +107,7 @@ fars_summarize_years <- function(years) {
 #' @importFrom dplyr filter
 #' @importFrom maps map
 #' @importFrom graphics points
+#'
 #' @examples
 #'
 #' fars_map_state('0001', '1999
