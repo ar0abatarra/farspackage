@@ -106,7 +106,7 @@ fars_summarize_years <- function(years) {
 #'
 #' @importFrom dplyr filter
 #' @importFrom maps map
-#' @importFrom graphics pint
+#' @importFrom graphics points
 #' @examples
 #'
 #' fars_map_state('0001', '1999
