@@ -17,6 +17,6 @@ Creates a valid file name for csv.bz2 format with accident prefix using the year
 }
 \examples{
 
-make_filename('1990')
+make_filename(1990)
 
 }

@@ -15,9 +15,3 @@ data in tibble format.
 \description{
 Reads .csv format data from the filepath and returns a tibble with the data.
 }
-\examples{
-
-fars_read(filename='C:/Users/myname/Data/file2read.csv')
-
-
-}

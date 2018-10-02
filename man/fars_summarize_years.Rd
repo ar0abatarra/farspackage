@@ -16,6 +16,7 @@ Summarized table of the input years
 fars_summarize_years
 }
 \examples{
+\dontrun{
 fars_summarize_years(c('1990', '1991', '2010'))
-
+}
 }

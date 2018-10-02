@@ -16,6 +16,8 @@ A list with the data from input years, and an extra column with year
 fars_read_years
 }
 \examples{
+\dontrun{
 fars_read_years(c('1990', '1991', '2010'))
+}
 
 }
