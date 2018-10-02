@@ -9,9 +9,6 @@
 #'
 #' @importFrom readr read_csv
 #'
-#' @examples
-#'
-#' fars_read(filename='C:/Users/myname/Data/file2read.csv')
 #'
 #'
 fars_read <- function(filename) {
@@ -37,7 +34,7 @@ fars_read <- function(filename) {
 #'
 #' @examples
 #'
-#' make_filename('1990')
+#' make_filename(1990)
 #'
 make_filename <- function(year) {
 
