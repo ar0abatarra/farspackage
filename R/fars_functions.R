@@ -53,7 +53,9 @@ make_filename <- function(year) {
 #' @importFrom dplyr mutate select
 #' @importFrom magrittr "%>%"
 #' @examples
+#' \dontrun{
 #' fars_read_years(c('1990', '1991', '2010'))
+#' }
 #'
 fars_read_years <- function(years) {
   lapply(years, function(year) {
@@ -81,8 +83,9 @@ fars_read_years <- function(years) {
 #' @importFrom magrittr "%>%"
 #'
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(c('1990', '1991', '2010'))
-#'
+#' }
 fars_summarize_years <- function(years) {
   dat_list <- fars_read_years(years)
   dplyr::bind_rows(dat_list) %>%
@@ -106,9 +109,9 @@ fars_summarize_years <- function(years) {
 #' @importFrom graphics points
 #'
 #' @examples
-#'
+#' \dontrun{
 #' fars_map_state('0001', '1999' ')
-#'
+#' }
 fars_map_state <- function(state.num, year) {
   filename <- make_filename(year)
   data <- fars_read(filename)
